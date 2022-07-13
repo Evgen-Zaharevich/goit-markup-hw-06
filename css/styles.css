@@ -601,6 +601,19 @@ p {
 }
 
 .subscrible-input {
+  height: 50px;
+  width: 358px;
+  margin-right: 12px;
+  padding-left: 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: var(--white-transparent);
+  background-color: var(--hero-footer-color);
+}
+
+.subscrible-input::placeholder {
+  color: var(--white-transparent);
 }
 
 .subscrible-button {
