@@ -586,6 +586,26 @@ p {
   background-color: var(--accent-color);
 }
 
+.subscrible {
+  margin-left: 93px;
+}
+
+.subscrible-label {
+  display: block;
+
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.subscrible-input {
+}
+
+.subscrible-button {
+}
+
 .backdrop {
   position: fixed;
   top: 0;
