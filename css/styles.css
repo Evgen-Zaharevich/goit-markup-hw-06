@@ -750,8 +750,9 @@ p {
 }
 
 .modal-form-cnt {
-  position: relative;
+  /* position: relative; */
   margin-bottom: 10px;
+  line-height: 1.15;
 }
 
 .modal-icon {
@@ -768,6 +769,7 @@ p {
   height: 120px;
 
   padding: 12px 16px;
+  margin-bottom: 20px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -777,20 +779,38 @@ p {
 }
 
 .form-agreement-label {
-  font-size: 14px;
-  line-height: 24px;
+  position: relative;
 
+  margin-bottom: 30px;
+
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: #757575;
 }
 
 .form-agreement-input {
-  margin-bottom: 30px;
+  appearance: none;
 }
 
 .agreement-link {
   color: var(--accent-color);
+}
+
+.icon-frame {
+  position: absolute;
+  left: 0%;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon-check {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .modal-form-button {
