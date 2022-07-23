@@ -757,13 +757,16 @@ p {
 }
 
 .modal-form-cnt {
+  position: relative;
   margin-bottom: 10px;
   line-height: 1.15;
 }
 
 .modal-icon {
   position: absolute;
-  margin: 11px 12px;
+  top: 0%;
+  left: 0%;
+  transform: translate(70%, 60%);
   fill: var(--title-text-color);
 
   transition-duration: 250ms;
@@ -829,9 +832,8 @@ p {
 .icon-frame {
   position: absolute;
   left: 0%;
-  left: 12px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(60%, -50%);
 
   border-radius: 2px;
 }
@@ -839,9 +841,8 @@ p {
 .icon-check {
   position: absolute;
   left: 0%;
-  left: 12px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(60%, -50%);
   background-color: var(--accent-color);
   fill: var(--white-color);
   opacity: 0;
